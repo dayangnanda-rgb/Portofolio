@@ -71,6 +71,7 @@ a:focus-visible {
 }
 
 .navigation {
+  position: relative;
   height: 100%;
   justify-content: space-between;
 }
@@ -98,6 +99,24 @@ a:focus-visible {
 
 .brand-dot {
   color: #8067d4;
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink);
+  font: 500 11px var(--sans);
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  color: #8067d4;
+  font-size: 15px;
 }
 
 .nav-links {
@@ -936,17 +955,48 @@ h1 {
     height: 28px;
   }
 
+  .menu-toggle {
+    display: inline-flex;
+  }
+
   .nav-links {
-    gap: 16px;
-    font-size: 11px;
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0;
+    padding: 9px 16px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 12px 24px rgb(32 32 30 / 8%);
+    font-size: 12px;
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 13px 4px;
   }
 
   .nav-links .nav-contact {
-    padding: 9px 10px;
+    padding: 13px 4px;
+    border: 0;
+    border-top: 1px solid var(--line);
+    border-radius: 0;
+  }
+
+  .nav-links .nav-contact {
+    color: var(--ink);
   }
 
   .nav-contact span {
-    margin-left: 3px;
+    margin-left: 5px;
   }
 
   .hero {

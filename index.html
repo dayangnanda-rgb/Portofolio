@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <a class="skip-link" href="#konten">Lewati ke konten</a>
@@ -20,7 +20,10 @@
           <span class="brand-mark">dn</span>
           <span>dayangnanda<span class="brand-dot">.</span></span>
         </a>
-        <div class="nav-links">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <div class="nav-links" id="site-menu">
           <a href="#tentang">Tentang</a>
           <a href="#karya">Karya</a>
           <a class="nav-contact" href="#kontak">Hubungi saya <span aria-hidden="true">↗</span></a>
@@ -183,5 +186,6 @@
       <span class="copyright">Dibuat dengan rasa ingin tahu <span aria-hidden="true">✳</span> © 2026</span>
       <a class="back-to-top" href="#beranda">Kembali ke atas ↑</a>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
