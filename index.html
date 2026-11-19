@@ -101,6 +101,45 @@
               </div>
             </div>
           </div>
+          <!-- Riwayat pendidikan dan pengalaman magang dipisah, masing-masing dengan gambar pendukung. -->
+          <div class="about-history">
+            <section class="history-section" aria-labelledby="education-history-title">
+              <h3 class="about-history-title" id="education-history-title">RIWAYAT PENDIDIKAN</h3>
+              <article class="history-card history-card-education">
+                <div class="history-copy">
+                  <p class="history-type">PENDIDIKAN</p>
+                  <h4>Sarjana Sistem Informasi (S.Kom.)</h4>
+                  <p class="history-place">Universitas Mercu Buana Yogyakarta</p>
+                  <p class="history-period"><time datetime="2021">2021</time> — <time datetime="2025">2025</time></p>
+                </div>
+                <img class="history-image" src="public/images/himpunan1.jpg" alt="Foto kegiatan di lingkungan kampus Universitas Mercu Buana Yogyakarta" loading="lazy">
+              </article>
+            </section>
+            <section class="history-section" aria-labelledby="internship-history-title">
+              <h3 class="about-history-title" id="internship-history-title">PENGALAMAN MAGANG</h3>
+              <div class="history-grid">
+                <article class="history-card">
+                  <div class="history-copy">
+                    <p class="history-type">MAGANG · 2025–2026</p>
+                    <h4>Penata Kelola Sistem dan Teknologi Informasi</h4>
+                    <p class="history-place">Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Kemenko PMK)</p>
+                    <p class="history-period"><time datetime="2025-11-24">24 November 2025</time> — <time datetime="2026-05-23">23 Mei 2026</time></p>
+                    <p class="history-note">Program pemagangan lulusan perguruan tinggi dengan predikat Sangat Baik.</p>
+                  </div>
+                  <img class="history-image history-image-document" src="public/images/sertimagang.png" alt="Sertifikat program pemagangan di Kemenko PMK" loading="lazy">
+                </article>
+                <article class="history-card">
+                  <div class="history-copy">
+                    <p class="history-type">MAGANG · 2024</p>
+                    <h4>Divisi Pengembangan Komunikasi Publik</h4>
+                    <p class="history-place">Dinas Komunikasi, Informatika, Statistik, dan Persandian Kota Semarang</p>
+                    <p class="history-period"><time datetime="2024-03-04">4 Maret 2024</time> — <time datetime="2024-07-15">15 Juli 2024</time></p>
+                  </div>
+                  <img class="history-image" src="public/images/magangdinkom.jpg" alt="Dokumentasi kegiatan magang di Dinas Komunikasi Kota Semarang" loading="lazy">
+                </article>
+              </div>
+            </section>
+          </div>
         </div>
       </section>
 
@@ -118,52 +157,37 @@
             <p class="work-intro">Eksplorasi kecil dan proyek digital yang dirancang dengan rasa ingin tahu.</p>
           </div>
 
-          <!-- Satu article mewakili satu proyek. Duplikasikan article.project-card untuk menambah proyek. -->
+          <!-- Satu article mewakili satu proyek. Ganti src .project-image dengan nama file di public/images. -->
           <div class="project-grid">
             <article class="project-card project-lilac">
-              <div class="project-visual visual-orbit" aria-hidden="true">
-                <span class="visual-caption">STUDIO<br>NO. 01</span>
-                <div class="visual-window">
-                  <span class="window-dots">● ● ●</span>
-                  <span class="window-title">mora.</span>
-                  <span class="window-shape"></span>
-                  <span class="window-line"></span>
-                </div>
-                <span class="visual-stamp">M</span>
+              <div class="project-visual">
+                <img class="project-image" src="public/images/admin1.png" alt="Halaman daftar program kerja PKPT">
               </div>
               <div class="project-meta">
                 <div>
-                  <h3>Ruang untuk bertumbuh</h3>
-                  <p>Website studio kreatif dengan pendekatan yang hangat.</p>
+                  <h3>Portal Program Kerja PKPT</h3>
+                  <p>Pengelolaan dan pemantauan program kerja tahunan.</p>
                 </div>
                 <span class="project-arrow" aria-hidden="true">↗</span>
               </div>
-              <div class="project-tags"><span>Website</span><span>UI Design</span></div>
+              <div class="project-tags"><span>Web Application</span><span>PKPT</span></div>
             </article>
 
             <article class="project-card project-green">
-              <div class="project-visual visual-dashboard" aria-hidden="true">
-                <span class="dashboard-caption">KEBIASAAN BAIK<br>DIMULAI HARI INI</span>
-                <div class="dashboard-panel">
-                  <span class="panel-heading">minggu ini <b>⌄</b></span>
-                  <span class="panel-value">5<span>/7</span></span>
-                  <span class="panel-label">hari konsisten</span>
-                  <span class="panel-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
-                  <span class="panel-days">S&nbsp; S&nbsp; R&nbsp; K&nbsp; J&nbsp; S&nbsp; M</span>
-                </div>
-                <span class="dashboard-spark" aria-hidden="true">✳</span>
+              <div class="project-visual">
+                <img class="project-image" src="public/images/admin3.png" alt="Dashboard capaian kinerja dan anggaran PKPT">
               </div>
               <div class="project-meta">
                 <div>
-                  <h3>Satu langkah setiap hari</h3>
-                  <p>Dashboard kebiasaan untuk merayakan progres kecil.</p>
+                  <h3>Dashboard Kinerja PKPT</h3>
+                  <p>Ringkasan capaian kinerja dan anggaran program.</p>
                 </div>
                 <span class="project-arrow" aria-hidden="true">↗</span>
               </div>
-              <div class="project-tags"><span>Dashboard</span><span>Front-end</span></div>
+              <div class="project-tags"><span>Dashboard</span><span>Monitoring</span></div>
             </article>
           </div>
-          <!-- Galeri gambar proyek. Ubah src dan caption sesuai screenshot yang disimpan di public/images. -->
+          <!-- Galeri gambar proyek. Ubah src, alt, dan caption sesuai screenshot di public/images. -->
           <div class="capture-gallery">
             <div class="capture-heading">
               <h3>Cuplikan proyek</h3>
@@ -171,24 +195,24 @@
             </div>
             <div class="capture-grid">
               <figure class="capture-card">
-                <img class="capture-image" src="public/images/capture-placeholder.svg" alt="Placeholder tangkapan layar proyek website studio kreatif">
-                <figcaption class="capture-caption"><span>Website studio kreatif</span><span>01</span></figcaption>
+                <img class="capture-image" src="public/images/login.jpeg" alt="Halaman login Portal PKPT">
+                <figcaption class="capture-caption"><span>Login Portal PKPT</span><span>01</span></figcaption>
               </figure>
               <figure class="capture-card">
-                <img class="capture-image" src="public/images/capture-placeholder.svg" alt="Placeholder tangkapan layar dashboard kebiasaan">
-                <figcaption class="capture-caption"><span>Dashboard kebiasaan</span><span>02</span></figcaption>
+                <img class="capture-image" src="public/images/popupadmin.png" alt="Dialog komitmen penugasan PKPT">
+                <figcaption class="capture-caption"><span>Komitmen Penugasan</span><span>02</span></figcaption>
               </figure>
               <figure class="capture-card">
-                <img class="capture-image" src="public/images/capture-placeholder.svg" alt="Placeholder tangkapan layar tampilan mobile">
-                <figcaption class="capture-caption"><span>Tampilan mobile</span><span>03</span></figcaption>
+                <img class="capture-image" src="public/images/tambahkerja.png" alt="Formulir penambahan program kerja">
+                <figcaption class="capture-caption"><span>Tambah Program Kerja</span><span>03</span></figcaption>
               </figure>
             </div>
           </div>
-          <p class="work-footnote"><span aria-hidden="true">✳</span> Proyek-proyek ini adalah konsep eksplorasi.</p>
+          <p class="work-footnote"><span aria-hidden="true">✳</span> Cuplikan dari Portal Program Kerja Pengawasan Tahunan (PKPT).</p>
         </div>
       </section>
 
-      <!-- Sertifikat: kartu contoh untuk judul, penerbit, tahun, dan gambar sertifikat. -->
+      <!-- Sertifikat: galeri gambar sertifikat, ditampilkan utuh agar isi dokumen tetap terbaca. -->
       <section class="achievement-section certificate-section section" id="sertifikat" aria-labelledby="certificate-title">
         <div class="container">
           <div class="section-label">
@@ -201,18 +225,30 @@
             </div>
             <p>Sertifikat dan pencapaian yang mendukung perjalanan saya.</p>
           </div>
-          <!-- Duplikasikan article.achievement-card untuk setiap sertifikat tambahan. -->
+          <!-- Tambahkan figure gambar di sini; layout mengisi maksimal empat gambar per baris. -->
           <div class="achievement-grid">
-            <article class="achievement-card">
-              <img class="achievement-image" src="public/images/certificate-placeholder.svg" alt="Placeholder gambar sertifikat">
-              <div class="achievement-copy">
-                <p class="achievement-type">SERTIFIKAT · TAHUN</p>
-                <h3>Nama sertifikat</h3>
-                <p>Nama lembaga penerbit</p>
-              </div>
-            </article>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/sertif1.jpg" alt="Sertifikat pelatihan Web Tools 2.0">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/sertif2.jpg" alt="Sertifikat keikutsertaan Himpunan Mahasiswa Sistem Informasi">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/sertif3.jpg" alt="Sertifikat kepanitiaan kegiatan Go SQL">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/sertif4.jpg" alt="Sertifikat kehadiran Studium Generale">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/sertimagang.png" alt="Sertifikat program pemagangan">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/bpvp1.jpg" alt="Sertifikat program pemagangan">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/bpvp2.jpg" alt="Sertifikat program pemagangan">
+            </figure>
           </div>
-          <p class="achievement-note">Ganti isi kartu dengan data sertifikatmu, lalu duplikasikan kartu untuk menambahkan lainnya.</p>
         </div>
       </section>
 
@@ -229,18 +265,33 @@
             </div>
             <p>Dokumentasi kegiatan, kolaborasi, dan pengalaman yang berkesan.</p>
           </div>
-          <!-- Duplikasikan article.achievement-card untuk setiap kegiatan tambahan. -->
+          <!-- Tambahkan figure gambar di sini; gambar kelima dan seterusnya turun ke baris berikutnya. -->
           <div class="achievement-grid">
-            <article class="achievement-card">
-              <img class="achievement-image" src="public/images/activity-placeholder.svg" alt="Placeholder foto dokumentasi kegiatan">
-              <div class="achievement-copy">
-                <p class="achievement-type">KEGIATAN · TAHUN</p>
-                <h3>Nama kegiatan</h3>
-                <p>Peran atau penyelenggara</p>
-              </div>
-            </article>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/himpunan1.jpg" alt="Foto kegiatan bersama Himpunan Mahasiswa">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/magangdinkom.jpg" alt="Dokumentasi kegiatan magang">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/pmk.jpeg" alt="Foto kegiatan organisasi 1">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/pmk1.jpeg" alt="Foto kegiatan organisasi 2">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/pmk3.jpeg" alt="Foto kegiatan organisasi 3">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/pmk4.jpeg" alt="Foto kegiatan organisasi 4">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/rapat.jpeg" alt="Dokumentasi rapat organisasi">
+            </figure>
+            <figure class="achievement-card">
+              <img class="achievement-image" src="public/images/rapat1.jpeg" alt="Dokumentasi diskusi dan rapat">
+            </figure>
           </div>
-          <p class="achievement-note">Ganti isi kartu dengan kegiatanmu, lalu duplikasikan kartu untuk menambahkan lainnya.</p>
         </div>
       </section>
 

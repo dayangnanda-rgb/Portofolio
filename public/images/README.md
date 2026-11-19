@@ -3,6 +3,7 @@
 Simpan gambar lokal untuk halaman portofolio di folder ini.
 
 - Foto utama: tambahkan `foto-profil.jpg`, lalu ubah `src` pada elemen `.hero-image` di `index.html` menjadi `public/images/foto-profil.jpg`.
+- Gambar pratinjau proyek: ubah `src` pada elemen `.project-image` di `index.html` ke file yang diinginkan, misalnya `public/images/admin1.png` atau `public/images/admin3.png`.
 - Screenshot proyek: tambahkan gambar seperti `capture-studio.jpg`, `capture-dashboard.jpg`, dan `capture-mobile.jpg`, lalu ubah `src` pada tiap elemen `.capture-image` di `index.html` ke nama file yang sesuai.
 - Sertifikat: tambahkan gambar seperti `sertifikat-web.jpg`, lalu ubah `src` pada `.achievement-image` di section sertifikat.
 - Dokumentasi kegiatan: tambahkan foto seperti `kegiatan-workshop.jpg`, lalu ubah `src` pada `.achievement-image` di section kegiatan.
