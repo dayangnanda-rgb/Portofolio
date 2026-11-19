@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title description">
+  <title id="title">Placeholder dokumentasi kegiatan</title>
+  <desc id="description">Ilustrasi sementara untuk menunjukkan tempat foto kegiatan.</desc>
+  <rect width="1200" height="750" fill="#e6e0f3"/>
+  <circle cx="600" cy="315" r="185" fill="#c6dc9c"/>
+  <circle cx="490" cy="250" r="46" fill="#f7f6f2"/>
+  <circle cx="710" cy="250" r="46" fill="#f7f6f2"/>
+  <path d="M405 469c8-100 38-151 85-151s77 51 85 151zM625 469c8-100 38-151 85-151s77 51 85 151z" fill="#20201e" opacity=".88"/>
+  <text x="600" y="580" fill="#20201e" font-family="Arial, sans-serif" font-size="26" letter-spacing="4" text-anchor="middle">FOTO KEGIATAN</text>
+  <text x="600" y="620" fill="#68665e" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Ganti dengan dokumentasi milikmu</text>
+</svg>

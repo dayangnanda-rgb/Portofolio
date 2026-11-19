@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Placeholder foto utama</title>
+  <desc id="description">Ilustrasi sementara untuk menunjukkan tempat foto profil.</desc>
+  <rect width="800" height="1000" fill="#e9e5dc"/>
+  <circle cx="640" cy="170" r="220" fill="#c6dc9c"/>
+  <circle cx="170" cy="790" r="300" fill="#d3c5f3"/>
+  <path d="M266 712c22-123 97-188 178-188s156 65 178 188v119H266z" fill="#20201e" opacity=".88"/>
+  <circle cx="444" cy="408" r="132" fill="#f7f6f2"/>
+  <text x="400" y="900" fill="#20201e" font-family="Arial, sans-serif" font-size="24" letter-spacing="4" text-anchor="middle">FOTO UTAMA</text>
+  <text x="400" y="940" fill="#68665e" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">Ganti gambar ini dengan foto profil</text>
+</svg>

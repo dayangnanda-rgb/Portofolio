@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title description">
+  <title id="title">Placeholder screenshot proyek</title>
+  <desc id="description">Ilustrasi sementara untuk menunjukkan tempat screenshot proyek.</desc>
+  <rect width="1200" height="750" fill="#e9e5dc"/>
+  <rect x="95" y="76" width="1010" height="598" rx="8" fill="#f7f6f2"/>
+  <path d="M103 84h994a0 0 0 0 1 0 0v45H103z" fill="#20201e"/>
+  <circle cx="134" cy="106" r="6" fill="#d3c5f3"/>
+  <circle cx="158" cy="106" r="6" fill="#c6dc9c"/>
+  <circle cx="182" cy="106" r="6" fill="#e9e5dc"/>
+  <rect x="150" y="190" width="380" height="34" rx="4" fill="#d3c5f3"/>
+  <rect x="150" y="250" width="570" height="13" rx="6" fill="#deddd6"/>
+  <rect x="150" y="279" width="500" height="13" rx="6" fill="#deddd6"/>
+  <rect x="150" y="336" width="185" height="52" rx="4" fill="#20201e"/>
+  <rect x="770" y="185" width="250" height="300" rx="5" fill="#c6dc9c"/>
+  <circle cx="895" cy="335" r="78" fill="#f7f6f2" opacity=".86"/>
+  <text x="600" y="560" fill="#20201e" font-family="Arial, sans-serif" font-size="25" letter-spacing="4" text-anchor="middle">SCREENSHOT PROYEK</text>
+  <text x="600" y="600" fill="#68665e" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">Ganti gambar ini dengan capture karya</text>
+</svg>
