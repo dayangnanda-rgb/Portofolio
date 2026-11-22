@@ -155,6 +155,39 @@ a:focus-visible {
   color: var(--ink);
 }
 
+.nav-links a.is-active {
+  color: #8067d4;
+}
+
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 0;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 45%);
+}
+
+.language-button {
+  min-width: 34px;
+  height: 28px;
+  padding: 0 7px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #77766f;
+  font: 700 10px var(--mono);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.language-button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
 .nav-contact span {
   margin-left: 8px;
   color: #8067d4;
@@ -743,11 +776,48 @@ h1 {
   object-fit: cover;
   background: #e9e5dc;
   transition: transform 280ms ease;
+  cursor: zoom-in;
 }
 
 .certificate-section .achievement-image {
   object-fit: contain;
   background: #fff;
+}
+
+.image-dialog {
+  width: min(920px, calc(100vw - 40px));
+  max-height: calc(100vh - 40px);
+  padding: 44px 18px 18px;
+  border: 0;
+  background: var(--paper);
+  box-shadow: 0 24px 80px rgb(32 32 30 / 30%);
+}
+
+.image-dialog::backdrop {
+  background: rgb(32 32 30 / 78%);
+  backdrop-filter: blur(6px);
+}
+
+.image-dialog-content {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 104px);
+  object-fit: contain;
+}
+
+.image-dialog-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .activity-section {
@@ -1135,6 +1205,11 @@ h1 {
 
   .nav-links a {
     padding: 13px 4px;
+  }
+
+  .language-switcher {
+    align-self: flex-start;
+    margin: 10px 4px;
   }
 
   .nav-links .nav-contact {

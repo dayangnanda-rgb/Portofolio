@@ -1,6 +1,6 @@
 # Portofolio Dayang Nanda
 
-Website portofolio statis yang dibuat dengan HTML dan CSS.
+Website portofolio statis yang dibuat dengan HTML, CSS, dan JavaScript.
 
 ## Struktur proyek
 
@@ -11,6 +11,7 @@ portofolio/
 ├── app/
 │   ├── Classes/
 │   │   └── NavigationMenu.js
+│   ├── translations.js
 │   └── main.js
 ├── public/
 │   └── favicon.svg
@@ -20,7 +21,9 @@ portofolio/
 `index.html` berisi struktur dan konten halaman. `style.css` mengatur tampilan
 dan responsivitas. Kode interaksi berada di `app/`: kelas `NavigationMenu`
 mengelola menu pada layar kecil, sedangkan `main.js` menghubungkan kelas itu
-dengan elemen halaman. Folder `public/` berisi aset publik seperti favicon.
+dan elemen halaman. `translations.js` mengelola pergantian Bahasa Indonesia dan
+Inggris serta menyimpan pilihan bahasa pengguna. Folder `public/` berisi aset
+publik seperti favicon dan gambar portofolio.
 
 Struktur ini tetap menggunakan HTML, CSS, dan JavaScript statis; folder
 `Controllers` atau `Models` PHP tidak ditambahkan karena website ini tidak
